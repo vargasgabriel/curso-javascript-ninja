@@ -35,7 +35,7 @@ Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
 "O segundo elemento do segundo array é [ELEMENTO]."
 */
-console.log("O segundo elemento do segundo array é " + arr[5, 2] + ".")
+console.log("O segundo elemento do segundo array é " + arr[5][1] + ".")
 
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
@@ -56,7 +56,7 @@ pares entre 10 e 20, inclusive esses 2.
 console.log( 'Números pares entre 10 e 20:' );
 var index = 10;
 while(index <= 20) {
-  if (index % 2 == 0)
+  if (index % 2 === 0)
     console.log(index);
 
   index++;
@@ -68,7 +68,7 @@ Na mesma ideia do exercício acima: mostre agora os números ímpares.
 console.log( 'Números ímpares entre 10 e 20:' );
 var index = 10;
 while(index <= 20) {
-  if (index % 2 != 0)
+  if (index % 2 !== 0)
     console.log(index);
 
   index++;
